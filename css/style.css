@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: skyblue;
+}
+
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+
+    /* box-shadow: x y blur color */
+    box-shadow: 10px 10px 10px black;
+
+     /* box-shadow: x y blur rgba(r,g,b,opacity) */
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+
+    transition: background-color 5s, width 0.5s, height 0.5s ;
+}
+
+#box:hover {
+    width: 150px;
+    height: 150px;
+    background-color:red;
+}
+
+#big-content {
+    width: 400px;
+    height: 400px;
+    background-color: purple;
+    position: relative;
+    margin: 0 auto;
+
+    /* clock (up right bottom left)
+    margin: 5px 10px 20px 5px; */
+}
+#circle {
+    width: 100px;
+    height: 50px;
+    border-radius: 20%;
+    background-color: yellow;
+    position: absolute;
+    left: 120px;
+    top: 80px;
+    z-index: 2;
+}
+#square {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    left: 200px;
+    top: 120px;
+    z-index: 1;
+}
+
+#ball {
+    width: 150px;
+    height: 150px;
+    background-color: hotpink;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    top: 0;
+    transition: all 5s;
+}
+#ball:hover {
+    left: 200px;
+}
+
+#ball:hover ~ #small {
+    background-color: cornsilk;
+}
+
+#small {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}

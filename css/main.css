@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 940px;
+    height: 1600px;
+    background-color: skyblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav {
+    width: 940px;
+    height: 137px;
+    background-color: yellow;
+}
+
+#logo {
+    width: 320px;
+    height: 100px;
+    background-color: red;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#menu {
+    width: 530px;
+    height: 50px;
+    background-color: brown;
+    /* display: inline-block; */
+    float: right;
+    margin-top: 45px;
+}
+
+#menu-items {
+    list-style-type: none;
+}
+
+#menu-items li {
+    color: grey;
+    font-size: 16px;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#banner {
+    width: 940px;
+    height: 350px;
+    background-color: pink;
+}
+
+#title {
+    width: 940px;
+    height: 60px;
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#content {
+    width: 940px;
+    height: 450px;
+    background-color: darkorchid;
+}
+.news {
+    width: 310px;
+    height: 445px;
+    background: green;
+    float: left;
+}
+.news-desc {
+    margin-bottom: 15px;
+}
+.news-image {
+    width: 310px;
+    height: 200px;
+    background-color: gold;
+    margin-bottom: 15px;
+}
+.news-content {
+    margin-bottom: 15px;
+}
+.news-button {
+    width: 165px;
+    height: 30px;
+    background-color: burlywood;
+}
